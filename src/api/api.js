@@ -63,7 +63,7 @@ export const login = params => {
 export const register = parmas => { return axios.post(`${local_host}/users/`, parmas) }
 
 //短信
-export const getMessage = parmas => { return axios.post(`${local_host}/code/`, parmas) }
+export const getMessage = parmas => { return axios.post(`${local_host}/codes/`, parmas) }
 
 
 //获取用户信息

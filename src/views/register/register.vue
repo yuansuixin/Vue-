@@ -15,7 +15,7 @@
 
                     <div class="form-group marb8">
                         <label>账&nbsp;&nbsp;&nbsp;号</label>
-                        <input id="jsRegMobile" name="account" v-model="mobile" type="text" placeholder="请输入您的用户名">
+                        <input id="jsRegMobile" name="account" v-model="mobile" type="text" placeholder="请输入您的手机号">
                     </div>
                     <p class="error-text marb8" v-show="error.mobile">{{error.mobile}}</p>
 
